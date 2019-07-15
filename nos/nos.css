@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+
+.section-nav{
+    background-image: url(./assets/nós2.jpg);
+    background-size: cover;
+
+
+}
+
+.section-nav{
+    min-height: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    
+}
+
+.rolagem{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3vh;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Unica One', cursive;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(247, 229, 70);
+    font-weight: 800;
+    font-style: bolder;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.bolsa-compra{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.usuario{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* ------------------------------------------------FOOTER------------------------------------------------------------ */
+footer{
+    
+    background-color: rgb(255, 255, 152);
+    height: 195px;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 5.5pt;
+}
+
+.pagamento{
+    flex-direction: column;
+}
+
+#logo-footer{
+    
+    align-items: center;
+}
+
+#logo-footer img{  
+    width: 100px;  
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+footer div img{
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.logo-redes{
+    justify-content: flex-end;
+    flex-direction: column;
+    display: inline-block;
+}
+
+.logo-redes a{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* --------------------------TEXTO-------------------------------- */
+
+.texto-apiz{
+    background-color: white;
+    height: 1000px;
+    display: flex;
+    align-items: initial;
+    -webkit-align-items: center;
+    -webkit-justify-content: center;
+    font-family: 'B612 Mono', monospace;
+    position: relative;
+    
+}
+section div h1{
+    font-size: 25pt;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'B612 Mono', monospace;
+}
+
+section div p{
+    font-size: 12pt;
+    font-family: 'B612 Mono', monospace;
+    line-height: 30px;
+}
+
+#container{
+    width: 60%;
+}

@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    height: 400%;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.rolagem{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3vh;
+}
+
+nav ul{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family:  'Unica One', cursive;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+nav li {
+    list-style: none; 
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(247, 229, 70);
+    font-weight: 800;
+    font-style: bolder;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.bolsa-compra{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.usuario{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#line{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.usuario{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(255, 255, 152);
+    height: 200px;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: space-around;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-size: 5.5pt;
+}
+
+.pagamento{
+    flex-direction: column;
+}
+
+#logo-footer{
+    
+    align-items: center;
+}
+
+#logo-footer img{  
+    width: 100px;  
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: center;
+}
+
+footer div img{
+    width: 20px;
+    padding: 0px 5px;
+}
+
+.logo-redes{
+    justify-content: flex-end;
+    flex-direction: column;
+    display: inline-block;
+    margin: 4rem 0 0 0px;
+}
+
+.logo-redes a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#section-box-clothes {
+    display: flex;
+    justify-content: center;
+}
+
+.box-clothes {
+    cursor: pointer;
+    margin: 2vh 5vh;
+}
+
+#box-clothes-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.box-clothes-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-clothes-body p {
+    margin: 0;
+}
+
+.box-clothes-body-paragrafo-valor {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box-clothes-btn {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: transparent;
+    
+}
