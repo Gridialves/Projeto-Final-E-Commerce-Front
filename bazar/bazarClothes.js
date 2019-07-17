@@ -15,7 +15,7 @@ function $_GET(param) {
 
 let id = $_GET("id");
 
-fetch(`http://localhost:3000/bazar/${id}`)
+fetch(`https://e-commerce-apiz-back.herokuapp.com/bazar/${id}`)
     .then(response => {
         return response.json();
     })
@@ -47,7 +47,7 @@ fetch(`http://localhost:3000/bazar/${id}`)
 
         addCart.addEventListener('click', () => {
             //pega a sessao pelo cookie do carrinho e adiciona o id do produto
-            fetch(`http://localhost:3000/cart`)
+            fetch(`https://e-commerce-apiz-back.herokuapp.com/cart`)
                 .then(response => {
                     return response.json();
                 })

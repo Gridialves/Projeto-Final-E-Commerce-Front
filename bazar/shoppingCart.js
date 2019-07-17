@@ -1,5 +1,5 @@
 
-fetch('http://localhost:3000/shopcart')
+fetch('https://e-commerce-apiz-back.herokuapp.com/shopcart')
     .then(res => {
         return res.json();
     })
@@ -50,7 +50,7 @@ fetch('http://localhost:3000/shopcart')
             container2.appendChild(box);
 
             imageButton.addEventListener('click', () => {
-                fetch(`http://localhost:3000/bazar/${shopCart._id}`, {
+                fetch(`https://e-commerce-apiz-back.herokuapp.com/bazar/${shopCart._id}`, {
                     method: 'PUT',
                     headers: {
                         "Accept": "application/json",

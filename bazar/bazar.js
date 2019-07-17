@@ -1,6 +1,6 @@
 const container = document.querySelector('#box-clothes-items');
 
-fetch('http://localhost:3000/bazar')
+fetch('https://e-commerce-apiz-back.herokuapp.com/bazar')
     .then(response => {
         return response.json();
     })
@@ -42,7 +42,7 @@ fetch('http://localhost:3000/bazar')
             })
 
             addCart.addEventListener('click', () => {
-                fetch(`http://localhost:3000/bazar/${addClothes._id}`, {
+                fetch(`https://e-commerce-apiz-back.herokuapp.com/bazar/${addClothes._id}`, {
                     method: 'PUT',
                     headers: {
                         "Accept": "application/json",
